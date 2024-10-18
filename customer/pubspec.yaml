@@ -1,0 +1,58 @@
+name: customer_side_web
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.4.4 <4.0.0"
+
+dependencies:
+  carousel_slider: ^4.2.1
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^10.7.0
+  pod_player: ^0.2.1
+  url_launcher: ^6.3.0
+  video_player: ^2.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/coffee_beer_logo.png
+    - assets/images/coffee-beer-cup.png
+    - assets/videos/coffee_beer_cafe_preview.mp4
+    - assets/images/frappe_img.png
+    - assets/images/chicken_img.png
+    - assets/images/pizza_img.png
+    - assets/images/logo.png
+    - assets/images/batangas_location.png
+    - assets/images/google_map_batangas_city.png
+    - assets/images/google_map_quezon.png
+    - assets/images/quezon_location.png
+    - assets/images/metro_manila_location.png
+    - assets/images/google_map_makati.png
+    - assets/images/beer.png
+    - assets/images/burger_and_sandwich.png
+    - assets/images/chicken_wings.png
+    - assets/images/espresso.png
+    - assets/images/frappe.png
+    - assets/images/fruit_tea.png
+    - assets/images/light_bites.png
+    - assets/images/pasta.png
+    - assets/images/pizza.png
+    - assets/images/rice_meal.png
+    - assets/images/sparkling_soda.png
+    - assets/images/all_day_breakfast.png
+
+  fonts:
+    - family: Sagona-Book
+      fonts:
+        - asset: assets/fonts/sagona/SAGONABOOK.TTF
+    - family: Sagona-Book-Bold
+      fonts:
+        - asset: assets/fonts/sagona/SAGONABOOKBOLD.TTF
